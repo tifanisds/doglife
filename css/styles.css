@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 480px;
+    height: 100vh;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FCFDFE;
+}
+
+header {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 5px #00000011;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    width: 100%;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 140px;
+}
+
+.search {
+    width: 24px;
+    margin-right: 20px;
+}
+
+main {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-watermark {
+    width: 195px;
+    height: 195px;
+    background-color: #F7535625;
+    border-radius: 94px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dog-logo {
+    width: 95px;
+}
+
+h2 {
+    margin-top: 14px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #3B3B3B;
+}
+
+p {
+    font-weight: 400;
+    color: #3B3B3B;
+    text-align: center;
+}
+
+nav {
+    background-color: #FFFFFF;
+    box-shadow: 0px 3px 5px #00000011;
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    width: 100%;
+    padding: 18px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+.home img {
+    width: 38px;
+}
+
+.list img {
+    width: 33px;
+}
+
+.plus img {
+    width: 28px;
+}
+
+.notifications img {
+    width: 34px;
+}
+
+.configuration img {
+    width: 35px;
+}
+
+.plus div {
+    width: 76px;
+    height: 50px;
+    border-radius: 100px;
+    background: rgb(245,133,36);
+    background: linear-gradient(90deg, rgba(245,133,36,1) 20%, rgba(249,43,127,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -6,7 +6,8 @@
 }
 
 .container {
-    width: 480px;
+    width: 100%;
+    max-width: 420px;
     height: 100vh;
     position: relative;
     margin-left: auto;
